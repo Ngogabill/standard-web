@@ -91,7 +91,7 @@ text-align: left;
 /* services*/
 #services
 {
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/pg5.png);
+    background-image: linear-gradient(rgba(16, 229, 236, 0.8),rgba(0,0,0,0.8)),url(images/selim-buka-Cv7rucR1bhQ-unsplash.jpg);
 background-size: cover;
 background-position: center;
 color: #efefef;
@@ -158,4 +158,17 @@ h1::after
     width: 170px;
     margin: 20px auto 5px;
 
+}
+  .profile-pic
+  {
+      margin-top: 25px;
+  }
+  .profile-pic .img-box
+{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.profile-pic .img-box img{
+    filter: grayscale(1);
 }
